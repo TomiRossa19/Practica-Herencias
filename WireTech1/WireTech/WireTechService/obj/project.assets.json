@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Facultad\\Programación 1\\Práctica Poo\\practica-clase-herencia--Rossa-Tomas-\\WireTech1\\WireTech\\WireTechService\\WireTechService.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Facultad\\Programación 1\\Práctica Poo\\Practica-Herencias\\WireTech1\\WireTech\\WireTechService\\WireTechService.csproj",
       "projectName": "WireTechService",
-      "projectPath": "C:\\Users\\USER\\Desktop\\Facultad\\Programación 1\\Práctica Poo\\practica-clase-herencia--Rossa-Tomas-\\WireTech1\\WireTech\\WireTechService\\WireTechService.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Facultad\\Programación 1\\Práctica Poo\\Practica-Herencias\\WireTech1\\WireTech\\WireTechService\\WireTechService.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\Facultad\\Programación 1\\Práctica Poo\\practica-clase-herencia--Rossa-Tomas-\\WireTech1\\WireTech\\WireTechService\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Facultad\\Programación 1\\Práctica Poo\\Practica-Herencias\\WireTech1\\WireTech\\WireTechService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
