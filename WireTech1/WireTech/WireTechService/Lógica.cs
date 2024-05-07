@@ -14,7 +14,10 @@
             switch (Tipo)
                 {
                     case 2:
-                        
+                        while (Tipo == 1)
+                        {
+
+                        }
                         return;
                         
 
