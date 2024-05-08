@@ -1,4 +1,6 @@
-﻿namespace WireTechService
+﻿using System.Net;
+
+namespace WireTechService
 {
     public class Logica
     {
@@ -6,37 +8,38 @@
         public int Tipo { get; set; }
         public int MyProperty { get; set; }
         public List<Pago> listapagos { get; set; }
+        public List<Proveedor> listaproveedores { get; set; }
 
-        public Pago pagos = new Pago();
 
-        public void CargarEntidades(int Tipo)
+        public void CargarPago(int NumPag, DateTime FechaCobro, int DNI, int CodServ, int Imp)
         {
-            while (Tipo != 1) {
-                
-               
-            switch (Tipo)
-                {
-                    case 2:
+            Pago pagos = new Pago();
+            if (listapagos.Count == 0) NumPag = 1;
+            else NumPag = listapagos.Max(x => x.NumPag) + 1;
+            pagos.NumPag = NumPag;
+            pagos.FechaCobro = FechaCobro;
+            pagos.DNI = DNI;
+            pagos.CodServ = CodServ;
+            pagos.Imp = Imp;
 
-                        
-
-                        int codpago = codpago + 1;
-                        DateTime fechapago = DateTime.Now;
-                        Console.WriteLine("Ingrese su DNI: ");
-                        int DNI = int.Parse(Console.ReadLine());
-                        Console.WriteLine("Ingrese su código de servicio: ");
-                        int codserv = int.Parse(Console.ReadLine());
-                        Console.WriteLine("Ingrese su importe: ");
-                        int imp = int.Parse(Console.ReadLine());
-
-                        pagos.CargarPago(codpago, fechapago, DNI, codserv, imp);
-                        return;
-                        
-
-                }
-            }
+            listapagos.Add(pagos);
         }
 
+        public void CargarCobro(int Pais, int CodProv, string Sitio, int Monto)
+        {
+            Proveedor proveedores = new Proveedor();
+            if (listaproveedores.Count == 0) CodProv = 1;
+            else CodProv = listaproveedores.Max(x => x.CodProv) + 1;
+            proveedores.CodProv = CodProv;
+            proveedores.Pais = Pais;
+            proveedores.Sitio= Sitio;
+            proveedores.Monto = Monto;
+
+            listaproveedores.Add(proveedores);
+
+        }
+
+        //public void CargarEntidades()
         //public void Retiro();
         //public void Reporte();
     }
