@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{37DE34CD-54FB-4161-9301-58048DE58545}|WireTech\\WireTech.csproj|solutionrelative:wiretech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{871E6A80-7732-447B-9182-5ED24AE44D21}|WireTechService\\WireTechService.csproj|c:\\users\\user\\desktop\\facultad\\programaci\u00F3n 1\\pr\u00E1ctica poo\\practica-herencias\\wiretech1\\wiretech\\wiretechservice\\l\u00F3gica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{871E6A80-7732-447B-9182-5ED24AE44D21}|WireTechService\\WireTechService.csproj|solutionrelative:wiretechservice\\l\u00F3gica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{871E6A80-7732-447B-9182-5ED24AE44D21}|WireTechService\\WireTechService.csproj|c:\\users\\user\\desktop\\facultad\\programaci\u00F3n 1\\pr\u00E1ctica poo\\practica-herencias\\wiretech1\\wiretech\\wiretechservice\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{871E6A80-7732-447B-9182-5ED24AE44D21}|WireTechService\\WireTechService.csproj|solutionrelative:wiretechservice\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{871E6A80-7732-447B-9182-5ED24AE44D21}|WireTechService\\WireTechService.csproj|c:\\users\\user\\desktop\\facultad\\programaci\u00F3n 1\\pr\u00E1ctica poo\\practica-herencias\\wiretech1\\wiretech\\wiretechservice\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{871E6A80-7732-447B-9182-5ED24AE44D21}|WireTechService\\WireTechService.csproj|solutionrelative:wiretechservice\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{871E6A80-7732-447B-9182-5ED24AE44D21}|WireTechService\\WireTechService.csproj|c:\\users\\user\\desktop\\facultad\\programaci\u00F3n 1\\pr\u00E1ctica poo\\practica-herencias\\wiretech1\\wiretech\\wiretechservice\\l\u00F3gica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{871E6A80-7732-447B-9182-5ED24AE44D21}|WireTechService\\WireTechService.csproj|solutionrelative:wiretechservice\\l\u00F3gica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,20 +30,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Proveedor.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Facultad\\Programaci\u00F3n 1\\Pr\u00E1ctica Poo\\Practica-Herencias\\WireTech1\\WireTech\\WireTechService\\Proveedor.cs",
               "RelativeDocumentMoniker": "WireTechService\\Proveedor.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Facultad\\Programaci\u00F3n 1\\Pr\u00E1ctica Poo\\Practica-Herencias\\WireTech1\\WireTech\\WireTechService\\Proveedor.cs",
               "RelativeToolTip": "WireTechService\\Proveedor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T22:43:23.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Pago.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Facultad\\Programaci\u00F3n 1\\Pr\u00E1ctica Poo\\Practica-Herencias\\WireTech1\\WireTech\\WireTechService\\Pago.cs",
               "RelativeDocumentMoniker": "WireTechService\\Pago.cs",
@@ -56,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "L\u00F3gica.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\Facultad\\Programaci\u00F3n 1\\Pr\u00E1ctica Poo\\Practica-Herencias\\WireTech1\\WireTech\\WireTechService\\L\u00F3gica.cs",
               "RelativeDocumentMoniker": "WireTechService\\L\u00F3gica.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Facultad\\Programaci\u00F3n 1\\Pr\u00E1ctica Poo\\Practica-Herencias\\WireTech1\\WireTech\\WireTechService\\L\u00F3gica.cs",
               "RelativeToolTip": "WireTechService\\L\u00F3gica.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAYAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T21:56:44.691Z",
               "EditorCaption": ""
@@ -75,7 +75,7 @@
               "RelativeDocumentMoniker": "WireTech\\Program.cs",
               "ToolTip": "C:\\Users\\USER\\Desktop\\Facultad\\Programaci\u00F3n 1\\Pr\u00E1ctica Poo\\Practica-Herencias\\WireTech1\\WireTech\\WireTech\\Program.cs",
               "RelativeToolTip": "WireTech\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T21:46:10.61Z",
               "EditorCaption": ""

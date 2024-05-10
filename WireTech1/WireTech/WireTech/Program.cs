@@ -3,7 +3,7 @@ using WireTechService;
 
 Logica logica = new Logica();
 
-Console.WriteLine("¿Qué desea hacer? Cerrar el programa (1), cargar un pago de servicio (2), cobrar como proveedor (3)");
+Console.WriteLine("¿Qué desea hacer? Cerrar el programa (1), cargar un pago de servicio (2), Soy proveedor (3),  (4)");
 int tipo = int.Parse(Console.ReadLine());
 
 while (tipo != 1)
@@ -29,6 +29,9 @@ while (tipo != 1)
             return;
 
             case 3:
+            Console.WriteLine("¿Desea cobrar(1) o retirar dinero (2)?");
+            int pregunta = int.Parse(Console.ReadLine());
+
             Console.WriteLine("Ingrese el país desde donde opera [Brasil(1), Argentina (2), México(3)]: ");
             int pais = int.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese su código de proveedor: ");
@@ -38,10 +41,12 @@ while (tipo != 1)
             Console.WriteLine("Ingrese el monto que desea retirar: ");
             int monto = int.Parse(Console.ReadLine());
 
-            logica.CargarCobro(pais, codprov, sitio, monto);
+            logica.CargarCobro(pregunta, pais, codprov, sitio, monto);
             return;
 
-
+        case 4:
+            
+            return;
     }
     Console.WriteLine("¿Qué desea hacer? Cerrar el programa (1), Cargar un pago (2)");
     tipo = int.Parse(Console.ReadLine());

@@ -25,7 +25,7 @@ namespace WireTechService
             listapagos.Add(pagos);
         }
 
-        public void CargarCobro(int Pais, int CodProv, string Sitio, int Monto)
+        public void CargarCobro(int Pregunta,int Pais, int CodProv, string Sitio, int Monto)
         {
             Proveedor proveedores = new Proveedor();
             if (listaproveedores.Count == 0) CodProv = 1;
@@ -34,6 +34,14 @@ namespace WireTechService
             proveedores.Pais = Pais;
             proveedores.Sitio= Sitio;
             proveedores.Monto = Monto;
+
+            if (Pregunta==1)
+            {
+
+            }else
+            {
+
+            }
 
             listaproveedores.Add(proveedores);
 

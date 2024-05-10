@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace WireTechService
 {
-    internal class Proveedor : Logica
+    public class Proveedor : Logica
     {
-       
+
             public int Pais { get; set; }
             public int CodProv { get; set; }
             public string Sitio { get; set; }
