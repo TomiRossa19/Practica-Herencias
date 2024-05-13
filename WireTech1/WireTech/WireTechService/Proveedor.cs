@@ -8,7 +8,7 @@ namespace WireTechService
 {
     public class Proveedor : Logica
     {
-
+            public int Saldo { get; set; }
             public int Pais { get; set; }
             public int CodProv { get; set; }
             public string Sitio { get; set; }

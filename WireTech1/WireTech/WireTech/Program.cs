@@ -3,7 +3,7 @@ using WireTechService;
 
 Logica logica = new Logica();
 
-Console.WriteLine("¿Qué desea hacer? Cerrar el programa (1), cargar un pago de servicio (2), Soy proveedor (3),  (4)");
+Console.WriteLine("¿Qué desea hacer? Cerrar el programa (1), cargar un pago de servicio (2), Soy proveedor (3),  Agregar Servicio(4), (5)");
 int tipo = int.Parse(Console.ReadLine());
 
 while (tipo != 1)
@@ -45,7 +45,18 @@ while (tipo != 1)
             return;
 
         case 4:
+            Console.WriteLine("Ingrese el nombre del servicio");
+            string nomserv = Console.ReadLine();
+
+            Console.WriteLine("Ingrese la descripción del servicio");
+            string descserv = Console.ReadLine();
+            Console.WriteLine("Ingrese su código de proveedor: ");
+            int codprovserv = int.Parse(Console.ReadLine());
             
+
+            logica.AgregarServicio(nomserv, descserv, codprovserv);
+            return;
+
             return;
     }
     Console.WriteLine("¿Qué desea hacer? Cerrar el programa (1), Cargar un pago (2)");

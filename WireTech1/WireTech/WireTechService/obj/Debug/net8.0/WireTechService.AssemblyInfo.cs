@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WireTechService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b2884995f6cde2d82d6b987cd3e29fa6f4ef500")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9c682aa6e5154915c779db1d5c8b2993cefda4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WireTechService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WireTechService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

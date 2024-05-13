@@ -9,6 +9,7 @@ namespace WireTechService
         public int MyProperty { get; set; }
         public List<Pago> listapagos { get; set; }
         public List<Proveedor> listaproveedores { get; set; }
+        public List<Servicio> listaservicios { get; set; }
 
 
         public void CargarPago(int NumPag, DateTime FechaCobro, int DNI, int CodServ, int Imp)
@@ -37,13 +38,27 @@ namespace WireTechService
 
             if (Pregunta==1)
             {
+                proveedores.Saldo = proveedores.Saldo + Monto;
 
             }else
             {
-
+                proveedores.Saldo = proveedores.Saldo - Monto;
             }
 
             listaproveedores.Add(proveedores);
+
+        }
+        public void AgregarServicio(string NomServ, string DescServ, int CodProvServ)
+        {
+            int CodServ;
+            Servicio servicios = new Servicio();
+            if (listaservicios.Count==0) 
+                CodServ= 1;
+            else CodServ=listaservicios.Max(x => x.CodServ) + 1;
+            servicios.CodServ= CodServ;
+            servicios.NomServ = NomServ;
+            servicios.DescServ= DescServ;
+            servicios.CodProvServ= CodProvServ;
 
         }
 
